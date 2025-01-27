@@ -16,5 +16,15 @@ console.log("Average of Scores", averageScores);
 
 //Task 3: Employee Records
 let employee = {
+    name: "Charles Jones", 
+    age: 31,
+    department: "Manager",
+    isActive: true
+};
 
-}
+employee.department = "Finance";
+employee.position = "Financial Analyst";
+
+console.log("Updated Employee Record", employee)
+
+//Task 4: Customer Database
