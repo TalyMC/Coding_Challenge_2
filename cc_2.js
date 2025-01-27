@@ -28,3 +28,14 @@ employee.position = "Financial Analyst";
 console.log("Updated Employee Record", employee)
 
 //Task 4: Customer Database
+let customer = [
+    {name:"Mario", email: mariothebest310@gmail.com, purchaseAmount: 550},
+    {name:"Luigi", email: luigibro@hotmail.com, purchaseAmount: 250},
+    {name:"Wario", email: warioman@gmail.com, purchaseAmount: 700}
+];
+
+customer.push({name:"Waluigi", email: waluigitime28@outlook.com, purchaseAmount:360});
+
+console.log(customer);
+
+//Task 5: Order Processing System
