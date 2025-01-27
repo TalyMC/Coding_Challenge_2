@@ -34,8 +34,20 @@ let customer = [
     {name:"Wario", email: warioman@gmail.com, purchaseAmount: 700}
 ];
 
-customer.push({name:"Waluigi", email: waluigitime28@outlook.com, purchaseAmount:360});
+customer.push({name:"Waluigi", email: waluigitime28@outlook.com, purchaseAmount: 360});
 
 console.log(customer);
 
 //Task 5: Order Processing System
+let order = {
+    orderID: 67890,
+    customerName: "Sir Edward",
+    amount: 99.99,
+    calculateTax: function() {
+        const taxRate = 0.10; // Tax Rate of 10%
+        return this.amount * taxRate;
+    }
+};
+
+console.log("Order Details",order);
+console.log("Order Detail Tax Amount",order.calculateTax())
